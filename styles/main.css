@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Waltograph";
+  src: url("waltographUI.ttf");
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: lightgrey;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+h1  {
+  font-family: 'Waltograph'
+}
+
+.input {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input button {
+  margin: 2em;
+  color: transparent;
+  background-color: #006699;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  border: solid black 1px;
+}
+
+.input button.rock {
+  background-image: url('../images/rock.png')
+}
+
+.input button.scissors {
+  background-image: url('../images/scissors.png')
+}
+
+.input button.paper {
+  background-image: url('../images/paper.png')
+}
+
+.output {
+  margin: auto 2em;
+  font-size: 1.5em;
+  padding: 1em;
+  margin-bottom: 150px;
+  border-radius: 5px;
+  border: 2px solid #006699;
+  background-color: #0099e6;
+  font-family: 'Waltograph'
+}
+
+.hidden {
+  display: none;
+}
+
+.playagain {
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
